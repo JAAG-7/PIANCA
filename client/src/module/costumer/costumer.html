@@ -19,7 +19,9 @@
                     <label for="title-type-document">Tipo de Documento</label>
                     <select name="typeDocument" id="type-document">
                         <option value="">Por favor selecciona una opción</option>
-                        <option value="V">Venezolano (V)</option>
+                        <option value="CI">Cedula de identidad (CI)</option>
+                        <option value="P">Pasaporte (P)</option>
+                        <option value="CE">Cédula Extranjera (CE)</option>
                         <!-- Completar el resto de dcoumentos -->
                     </select>
                 </div>
@@ -30,23 +32,28 @@
                 </div>
                 <!-- Nombre -->
                 <div class="">
-                    <input type="text" class="">            
+                    <label for="titleName">Nombre</label>
+                    <input type="text" name="name" class="">            
                 </div>
                 <!-- Apellido -->
                 <div class="">
-                    <input type="" class="">            
+                    <label for="title-lastName">Apellido</label>
+                    <input type="text" name="lastName" class="">            
                 </div>
                 <!-- Nro. TLF -->
                 <div class="">
-                    <input type="" class="">            
+                    <label for="titleMovil">Nro. telefono</label>
+                    <input type="number" name="movil" class="">           
                 </div>
                 <!-- Email -->
                 <div class="">
-                    <input type="" class="">            
+                    <label for="titleEmail">Correo electronico</label>
+                    <input type="email" name="Email" class="">            
                 </div>
                 <!-- Direccion -->
                 <div class="">
-                    <input type="" class="">            
+                    <label for="titleAddress">Direccion</label>
+                    <input type="text" name="Address"class="">            
                 </div>
             </section>
             <!-- acciones del formulario ( Logica JS ) CRUD-->
@@ -55,6 +62,25 @@
                 <div class="">
                     <button>
                         <!-- Nombre de tu botón -->
+                        Agregar
+                    </button>
+                </div>
+                <div class="">
+                    <button>
+                        <!-- Nombre de tu botón -->
+                        Buscar
+                    </button>
+                </div>
+                <div class="">
+                    <button>
+                        <!-- Nombre de tu botón -->
+                        Editar
+                    </button>
+                </div>
+                <div class="">
+                    <button>
+                        <!-- Nombre de tu botón -->
+                        Eliminar
                     </button>
                 </div>
             </section>
